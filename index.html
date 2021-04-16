@@ -19,11 +19,8 @@
 <li>WMIIG : 페이스북으로부터 받은 엑세스 토큰을 이용해서 페이스북에게 사용자의 프로파일과 글을 요청한다.   </li>
 <li>페이스북 : 전달된 엑세스 토큰을 확인한 후, 사용자의 프로파일과 글을 전달한다.</li>
 </ol>
-<h2 id="인가-코드-그랜트-플로우"><a href="#인가-코드-그랜트-플로우" class="headerlink" title="인가 코드 그랜트 플로우"></a>인가 코드 그랜트 플로우</h2><ol>
-<li>사용자 동의 화면에서 사용자가 동의를 하면 </li>
-<li>리다이렉션 엔드포인트로 인가 코드가 전달되고</li>
-<li>인가 코드를 엑세스 토큰과 교환한다.</li>
-</ol></div><a class="article-more button is-small size-small" href="/2021/01/27/oauth-server-side-workflow/#more">Read More</a></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><time class="level-item" dateTime="2021-01-25T15:00:00.000Z" title="2021-01-25T15:00:00.000Z">2021-01-26</time><span class="level-item"><a class="link-muted" href="/categories/oauth/">OAuth</a></span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2021/01/26/oauth-client-side-workflow/">[OAuth 2.0 마스터] 5장_Implicit Grant</a></h1><div class="content"><h2 id="Sample"><a href="#Sample" class="headerlink" title="Sample"></a>Sample</h2><p>암시적 그랜프 플로우를 샘플 앱인 WMIIG 샘플 앱으로 확인해보자.</p>
+<p><img src="/image/server-side-workflow.png" alt></p>
+<h2 id="인가-코드-그랜트-플로우"><a href="#인가-코드-그랜트-플로우" class="headerlink" title="인가 코드 그랜트 플로우"></a>인가 코드 그랜트 플로우</h2></div><a class="article-more button is-small size-small" href="/2021/01/27/oauth-server-side-workflow/#more">Read More</a></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><time class="level-item" dateTime="2021-01-25T15:00:00.000Z" title="2021-01-25T15:00:00.000Z">2021-01-26</time><span class="level-item"><a class="link-muted" href="/categories/oauth/">OAuth</a></span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2021/01/26/oauth-client-side-workflow/">[OAuth 2.0 마스터] 5장_Implicit Grant</a></h1><div class="content"><h2 id="Sample"><a href="#Sample" class="headerlink" title="Sample"></a>Sample</h2><p>암시적 그랜프 플로우를 샘플 앱인 WMIIG 샘플 앱으로 확인해보자.</p>
 <ol>
 <li>사용자 : WMIIG 로 접속해서, 인포그래픽을 보려고 한다.</li>
 <li>WMIIG : 당신의 프로파일과 당신이 작성한 글에 접속해야 하므로, 여기서 인가해달라고 요청한다. (페이스북으로 연결)</li>
